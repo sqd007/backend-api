@@ -11,6 +11,27 @@ MatchWork é uma plataforma de recrutamento e matching de talentos, projetada pa
 - PostgreSQL para persistência de dados
 - Spring Boot para o back-end da aplicação
 
+## Execução Local
+
+### Limpar o projeto
+O primeiro passo é limpar seu projeto. Execute o comando a seguir:
+```bash
+mvn clean
+```
+### Instalar Dependencias 
+Para instalar as dependências, execute o comando a seguir:
+```bash
+mvn install
+```
+
+### Executar a aplicação
+Para executar a aplicação, execute o comando a seguir:
+```bash
+mvn spring-boot:run
+```
+## Inserir dados do backend via Api
+Acesse o arquivo Api_mathwork.json importe ele no Insomnia.
+
 ## Modelo de Dados
 
 ![Modelo de Dados] (./Modelo.jpeg)
